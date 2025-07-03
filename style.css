@@ -1,0 +1,125 @@
+/* === Base typography & layout === */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial,Helvetica,sans-serif;
+  color:#000;
+}
+
+body{
+  background:#fff;
+  line-height:1.6;
+  padding:2rem;
+}
+
+/* === Cards (now slimmer) === */
+.card{
+  border:none;                 /* no borders */
+  border-radius:8px;
+  padding:1rem;                /* was 1.5rem → tighter */
+  margin-bottom:1rem;          /* general spacing between cards */
+}
+
+/* Give extra breathing-room **only** below personal info */
+#personal-info{
+  margin-bottom:4rem;        /* separates it from “Courses” */
+}
+
+/* === Collapsible content === */
+.content {
+  display: none;
+  margin-top: 0rem;
+}
+
+/* === Toggle headings === */
+.toggle{
+  cursor:pointer;
+  user-select:none;
+  position:relative;
+  padding-left:1.5rem;         /* space for arrow */
+}
+
+/* ▶ arrow icon */
+.toggle::before{
+  content:"\25B6";
+  position:absolute;
+  top:0;
+  left:0;
+  transform-origin:center;
+  transition:transform .25s ease;
+}
+
+/* Rotate when expanded */
+.toggle.expanded::before{
+  transform:rotate(90deg);
+}
+
+.click-me-btn {
+  background: #000;
+  color: #fff;
+  border: 2px solid #000;
+  border-radius: 4px;
+  padding: 6px 18px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.course-title-indent {
+  padding-left: 24px;
+}
+
+#courses .content {
+  padding-left: 32px;
+}
+
+.table-scroll {
+  overflow-x: auto;
+  width: 100%;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.5rem;
+  white-space: nowrap;
+}
+
+th, td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: 1px solid #000;
+  padding: .45rem;
+  text-align: left;
+}
+
+th:nth-child(1), td:nth-child(1) { width: 900px; }
+th:nth-child(2), td:nth-child(2) { width: 265px; }
+th:nth-child(3), td:nth-child(3) { width: 60px; }
+th:nth-child(4), td:nth-child(4) { width: 770px; }
+th:nth-child(5), td:nth-child(5) { width: 2000px; }
+
+.black-btn {
+  background: #000;
+  color: #fff;
+  border: 2px solid #000;
+  border-radius: 4px;
+  padding: 4px 14px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.pager-btn {
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: none !important;
+}
+
+.pager-row > td {
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: none !important;
+  background: transparent;
+}

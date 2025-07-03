@@ -1,0 +1,44 @@
+[
+  {
+    "Authors": "Hanna A. et al.",
+    "Title": "<a href=https://knowledgeequitylab.ca/podcast/s3ep1/>AI and Automating Knowledge Inequity</a>",
+    "Year": "-",
+    "Source Title": "Knowledge Equity Lab Podcast S3 Ep1"
+  },
+  {
+    "Authors": "Affiliated with Google",
+    "Title": "<a href=https://colab.research.google.com/github/PAIR-code/ai-explorables/blob/master/source/measuring-diversity/diversity-and-inclusion.ipynb>Diversity and Inclusion Metrics</a>",
+    "Year": 2021,
+    "Source Title": "Google CoLab"
+  },
+  {
+    "Authors": "Prabhakaran V. et al.",
+    "Title": "<a href=\"./precedent_studies/bib_authors/files/Prabhakaran V. et al. - 2022 - A Human Rights-Based Approach to Responsible AI.pdf\" target=\"_blank\">A Human Rights-Based Approach to Responsible AI</a>",
+    "Year": 2022,
+    "Source Title": "2022 ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization"
+  },
+  {
+    "Authors": "Denton E. et al.",
+    "Title": "<a href=\"./precedent_studies/bib_authors/files/Denton E. et al. - 2019 - Image Counterfactual Sensitivity Analysis for Detecting Unintended Bias.pdf\" target=\"_blank\">Image Counterfactual Sensitivity Analysis for Detecting Unintended Bias</a>",
+    "Year": 2019,
+    "Source Title": "CVPR 2019 Workshop on Fairness Accountability Transparency and Ethics in Computer Vision"
+  },
+  {
+    "Authors": "Jo E. S. and Gebru T.",
+    "Title": "<a href=\"./precedent_studies/bib_authors/files/Jo E. S. and Gebru T. - 2019 - Lessons from Archives_ Strategies for Collecting Sociocultural Data in Machine Learning.pdf\" target=\"_blank\">Lessons from Archives: Strategies for Collecting Sociocultural Data in Machine Learning</a>",
+    "Year": 2019,
+    "Source Title": "Conference on Fairness, Accountability, and Transparency FAT* '20"
+  },
+  {
+    "Authors": "Raji I. D. et al.",
+    "Title": "<a href=\"./precedent_studies/bib_authors/files/Raji I. D. et al. - 2020 - Saving Face_ Investigating the Ethical Concerns of Facial Recognition Auditing.pdf\" target=\"_blank\">Saving Face: Investigating the Ethical Concerns of Facial Recognition Auditing</a>",
+    "Year": 2020,
+    "Source Title": "AAAI/ACM AI Ethics and Society conference 2020"
+  },
+  {
+    "Authors": "Mitchell, M. and Gebru, T. (Interviewee quotes in Stokes, J.)",
+    "Title": "<a href=https://www.jonstokes.com/p/new-google-tool-is-the-whole-ai-debate>New Google tool is the whole AI debate in widget form</a>",
+    "Year": 2021,
+    "Source Title": "jonstokes.com"
+  }
+]

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Xinyu Jiao — Personal Site</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ===== Personal information ===== -->
+  <section id="personal-info" class="card">
+    <h1>Xinyu Jiao</h1>
+    <p>Email: <a href="mailto:xj2349@columbia.edu">xj2349@columbia.edu</a></p>
+  </section>
+
+  <section id="index" class="card">
+    <!-- Heading itself toggles the entire Courses section -->
+    <h2 class="toggle" data-target="courses">Courses</h2>
+  </section>
+
+  <!-- ===== Courses (hidden at first) ===== -->
+  <section id="courses" class="card content">
+    <!-- Toggle A4144 -->
+    <div class="course-title-indent">
+        <h3 class="toggle" data-target="course-a4144">A4144</h3>
+
+        <!-- ===== A4144 content ===== -->
+        <div id="course-a4144" class="content">
+        <!-- Toggle Datasheet -->
+        <h4 class="toggle" data-target="datasheet">Precedent Datasheet</h4>
+        <div id="datasheet" class="content">
+            <h4>Original Project/Paper</h5>
+            <div class="table-scroll">
+                <table id="table-original">
+                <thead>
+                    <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Year</th>
+                    <th>Format</th>
+                    <th>Audience</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td colspan="5" style="text-align:center;">Loading…</td></tr>
+                </tbody>
+                </table>
+            </div>
+            <h4>Authors' Other Writings</h5>
+            <div class="table-scroll">
+                <table id="table-authors">
+                <thead>
+                    <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Year</th>
+                    <th>Format</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td colspan="4" style="text-align:center;">Loading…</td></tr>
+                </tbody>
+                </table>
+            </div>
+            <h4>Others' Citations and Projects</h5>
+            <div class="table-scroll">
+                <table id="table-others">
+                <thead>
+                    <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Year</th>
+                    <th>Format</th>
+                    <th>Ref Summary</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td colspan="5" style="text-align:center;">Loading…</td></tr>
+                </tbody>
+                </table>
+            </div>
+        </div><!-- /datasheet -->
+        </div><!-- /course-a4144 -->
+    </div>
+
+    <div class="course-title-indent">
+        <h3 class="toggle" data-target="course-a4163">A4163</h3>
+
+        <div id="course-a4163" class="content">
+            <button id="clickMeBtn" class="click-me-btn">click me</button>
+            <span id="clickMsg" style="margin-left:10px;"></span>
+        </div>
+    </div>
+    
+  </section><!-- /courses -->
+
+  <script src="script.js"></script>
+</body>
+</html>

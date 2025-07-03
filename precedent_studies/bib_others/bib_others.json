@@ -1,0 +1,310 @@
+[
+  {
+    "Authors": "Miner A.S. et al.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Miner A.S. et al. - 2022 - A computational approach to measure the linguistic characteristics of psychotherapy timing, responsiveness, and consistency.pdf\" target=\"_blank\">A computational approach to measure the linguistic characteristics of psychotherapy timing, responsiveness, and consistency</a>",
+    "Year": 2022,
+    "Source Title": "npj Mental Health Research",
+    "Ref Summary": "mentioned as other approaches exist for feature implementation and should be evaluated"
+  },
+  {
+    "Authors": "Furuya K. et al.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Furuya K. et al. - 2022 - A computationally efficient approach for solving RBSC-based formulation of the subset selection problem.pdf\" target=\"_blank\">A computationally efficient approach for solving RBSC-based formulation of the subset selection problem</a>",
+    "Year": 2022,
+    "Source Title": "Proceedings - 2022 12th International Congress on Advanced Applied Informatics, IIAI-AAI 2022",
+    "Ref Summary": "demonstrates that, depending on the problem context, additional criteria like uniformity, diversity, inclusiveness, and fairness can be incorporated into algorithmic design."
+  },
+  {
+    "Authors": "Fosch-Villaronga E. et al.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Fosch-Villaronga E. et al. - 2022 - Accounting for diversity in AI for medicine.pdf\" target=\"_blank\">Accounting for diversity in AI for medicine</a>",
+    "Year": 2022,
+    "Source Title": "Computer Law and Security Review",
+    "Ref Summary": "emphasizes that overlooking factors like sex and gender in research can lead to socially disconnected outcomes, and that integrating diversity and inclusion helps produce context-aware, socially informed algorithmic recommendations."
+  },
+  {
+    "Authors": "Akter S. et al.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Akter S. et al. - 2021 - Algorithmic bias in data-driven innovation in the age of AI.pdf\" target=\"_blank\">Algorithmic bias in data-driven innovation in the age of AI</a>",
+    "Year": 2021,
+    "Source Title": "International Journal of Information Management",
+    "Ref Summary": "emphasizes that biased algorithmic decision-making can perpetuate systemic discrimination, leading to unfair treatment of marginalized groups based on protected characteristics."
+  },
+  {
+    "Authors": "Dinnissen K. and Bauer C.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Dinnissen K. and Bauer C. - 2023 - Amplifying Artists’ Voices_ Item Provider Perspectives on Influence and Fairness of Music Streaming Platforms.pdf\" target=\"_blank\">Amplifying Artists’ Voices: Item Provider Perspectives on Influence and Fairness of Music Streaming Platforms</a>",
+    "Year": 2023,
+    "Source Title": "UMAP 2023 - Proceedings of the 31st ACM Conference on User Modeling, Adaptation and Personalization",
+    "Ref Summary": "emphasizes that diversity denotes variety in terms of social attributes such as sociopolitical power differentials"
+  },
+  {
+    "Authors": "Kotera Y. et al.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Kotera Y. et al. - 2023 - Assessing Diversity and Inclusivity is the Next Frontier in Mental Health Recovery Narrative Research and Practice.pdf\" target=\"_blank\">Assessing Diversity and Inclusivity is the Next Frontier in Mental Health Recovery Narrative Research and Practice</a>",
+    "Year": 2023,
+    "Source Title": "JMIR Mental Health",
+    "Ref Summary": "supports the claim that Social Choice Methods, though proposed in computer science, have higher data requirements than SDI, particularly regarding social context."
+  },
+  {
+    "Authors": "Urman A. et al.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Urman A. et al. - 2022 - Auditing the representation of migrants in image web search results.pdf\" target=\"_blank\">Auditing the representation of migrants in image web search results</a>",
+    "Year": 2022,
+    "Source Title": "Humanities and Social Sciences Communications",
+    "Ref Summary": "notes that they recently advocated for result sets that are socially diverse and inclusive, aligning algorithmic outputs with broader social values."
+  },
+  {
+    "Authors": "Hutiri W.T. and Ding A.Y.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Hutiri W.T. and Ding A.Y. - 2022 - Bias in Automated Speaker Recognition.pdf\" target=\"_blank\">Bias in Automated Speaker Recognition</a>",
+    "Year": 2022,
+    "Source Title": "ACM International Conference Proceeding Series",
+    "Ref Summary": "suggests that existing research on diversity and inclusion in subgroup selection offers foundational insights for developing more inclusive speaker verification evaluation datasets."
+  },
+  {
+    "Authors": "Tseng T. et al.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Tseng T. et al. - 2024 - Co-ML_ Collaborative Machine Learning Model Building for Developing Dataset Design Practices.pdf\" target=\"_blank\">Co-ML: Collaborative Machine Learning Model Building for Developing Dataset Design Practices</a>",
+    "Year": 2024,
+    "Source Title": "ACM Transactions on Computing Education",
+    "Ref Summary": "highlights that while various techniques exist to measure dataset diversity, practitioners must also consider learnability, acknowledging that some classes may demand more data due to their complexity."
+  },
+  {
+    "Authors": "Cho J. et al.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Cho J. et al. - 2023 - DALL-EVAL_ Probing the Reasoning Skills and Social Biases of Text-to-Image Generation Models.pdf\" target=\"_blank\">DALL-EVAL: Probing the Reasoning Skills and Social Biases of Text-to-Image Generation Models</a>",
+    "Year": 2023,
+    "Source Title": "Proceedings of the IEEE International Conference on Computer Vision",
+    "Ref Summary": "evaluates the diversity and inclusiveness of images containing people of specific occupations with respect to gender and race"
+  },
+  {
+    "Authors": "Kamikubo R. et al.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Kamikubo R. et al. - 2022 - Data Representativeness in Accessibility Datasets_ A Meta-Analysis.pdf\" target=\"_blank\">Data Representativeness in Accessibility Datasets: A Meta-Analysis</a>",
+    "Year": 2022,
+    "Source Title": "ASSETS 2022 - Proceedings of the 24th International ACM SIGACCESS Conference on Computers and Accessibility",
+    "Ref Summary": "demonstrates that diversity has become a core consideration in AI research, particularly in efforts to advance responsible and ethical AI development."
+  },
+  {
+    "Authors": "Coppersmith G.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Coppersmith G. - 2022 - Digital Life Data in the Clinical Whitespace.pdf\" target=\"_blank\">Digital Life Data in the Clinical Whitespace</a>",
+    "Year": 2022,
+    "Source Title": "Current Directions in Psychological Science",
+    "Ref Summary": "highlights ongoing efforts in the machine learning and AI communities to develop frameworks aimed at identifying, addressing, and preventing algorithmic bias."
+  },
+  {
+    "Authors": "Porcaro L. et al.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Porcaro L. et al. - 2021 - Diversity by Design in Music Recommender Systems.pdf\" target=\"_blank\">Diversity by Design in Music Recommender Systems</a>",
+    "Year": 2021,
+    "Source Title": "Transactions of the International Society for Music Information Retrieval",
+    "Ref Summary": "indicates that while diversity has been extensively studied across disciplines, establishing a universal framework for measuring diversity in music recommendation remains beyond the scope of this work."
+  },
+  {
+    "Authors": "Porcaro L. et al.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Porcaro L. et al. - 2022 - Diversity in the music listening experience_ Insights from focus group interviews.pdf\" target=\"_blank\">Diversity in the music listening experience: Insights from focus group interviews</a>",
+    "Year": 2022,
+    "Source Title": "CHIIR 2022 - Proceedings of the 2022 Conference on Human Information Interaction and Retrieval",
+    "Ref Summary": "emphasizes that designing diversity metrics requires careful consideration of social and ethical implications, such as fairness, representational harms, and contextual relevance."
+  },
+  {
+    "Authors": "Vrijenhoek S. et al.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Vrijenhoek S. et al. - 2024 - Diversity of What_ On the Different Conceptualizations of Diversity in Recommender Systems.pdf\" target=\"_blank\">Diversity of What? On the Different Conceptualizations of Diversity in Recommender Systems</a>",
+    "Year": 2024,
+    "Source Title": "2024 ACM Conference on Fairness, Accountability, and Transparency, FAccT 2024",
+    "Ref Summary": "frames diversity in subset selection as inherently sociopolitical, emphasizing representation across power differentials—distinct from the broader, more neutral concept of heterogeneity."
+  },
+  {
+    "Authors": "Ljubenkov D.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Ljubenkov D. - 2021 - Ethical Artificial Intelligence in the European Union Context_ Visualization for Policymaking and Decision Processes.pdf\" target=\"_blank\">Ethical Artificial Intelligence in the European Union Context: Visualization for Policymaking and Decision Processes</a>",
+    "Year": 2021,
+    "Source Title": "14th CMI International Conference - Critical ICT Infrastructures and Platforms, CMI 2021 - Proceedings",
+    "Ref Summary": "shows that researchers have focused on specific diversity and inclusion metrics to reveal how data may discriminate against particular subgroups."
+  },
+  {
+    "Authors": "Gale A. and Marian A.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Gale A. and Marian A. - 2020 - Explaining monotonic ranking functions.pdf\" target=\"_blank\">Explaining monotonic ranking functions</a>",
+    "Year": 2020,
+    "Source Title": "Proceedings of the VLDB Endowment",
+    "Ref Summary": "reflects recent efforts to integrate fairness and diversity into ranking and machine learning methods, and position the current work as a complementary contribution that enhances ethical design through greater transparency and explainability."
+  },
+  {
+    "Authors": "Cachel K. and Rundensteiner E.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Cachel K. and Rundensteiner E. - 2023 - Fair&Share_ Fast and Fair Multi-Criteria Selections.pdf\" target=\"_blank\">Fair&Share: Fast and Fair Multi-Criteria Selections</a>",
+    "Year": 2023,
+    "Source Title": "International Conference on Information and Knowledge Management, Proceedings",
+    "Ref Summary": "highlights a range of approaches to addressing bias in selection processes, including interventions to ensure representation of disadvantaged groups, metrics for social diversity and inclusion, fair judicial selection methods, and legal evaluations of hiring pipelines."
+  },
+  {
+    "Authors": "Cachel K. and Rundensteiner E.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Cachel K. and Rundensteiner E. - 2022 - FINS auditing framework_ Group fairness for subset selections.pdf\" target=\"_blank\">FINS auditing framework: Group fairness for subset selections</a>",
+    "Year": 2022,
+    "Source Title": "AIES 2022 - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society",
+    "Ref Summary": "indicates that recent research supporting decision-makers and auditors has primarily focused on evaluating the impact of the Rooney Rule and developing metrics to quantify social aspects of diversity and inclusion."
+  },
+  {
+    "Authors": "Litts B.K. et al.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Litts B.K. et al. - 2023 - Gathering as Design Process_ Physical Prototyping for Culturally Sustaining Computational Technologies.pdf\" target=\"_blank\">Gathering as Design Process: Physical Prototyping for Culturally Sustaining Computational Technologies</a>",
+    "Year": 2023,
+    "Source Title": "ACM International Conference Proceeding Series",
+    "Ref Summary": "underscores that systemic oppression can be reinforced by technological systems—an issue that remains unresolved even by leading tech companies like Apple, Google, and Microsoft."
+  },
+  {
+    "Authors": "Savoldi B. et al.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Savoldi B. et al. - 2021 - Gender bias in machine translation.pdf\" target=\"_blank\">Gender bias in machine translation</a>",
+    "Year": 2021,
+    "Source Title": "Transactions of the Association for Computational Linguistics",
+    "Ref Summary": "highlights that using averaged performance to formalize bias in machine translation is a subjective choice, and alternative measurement approaches exist—prompting broader discussions on how bias should be defined and quantified."
+  },
+  {
+    "Authors": "Neumann T. et al.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Neumann T. et al. - 2022 - Justice in Misinformation Detection Systems_ An Analysis of Algorithms, Stakeholders, and Potential Harms.pdf\" target=\"_blank\">Justice in Misinformation Detection Systems: An Analysis of Algorithms, Stakeholders, and Potential Harms</a>",
+    "Year": 2022,
+    "Source Title": "ACM International Conference Proceeding Series",
+    "Ref Summary": "highlights growing concern over representational harms in information retrieval, particularly the reinforcement of stereotypes."
+  },
+  {
+    "Authors": "Henzinger M. et al.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Henzinger M. et al. - 2022 - Leximax Approximations and Representative Cohort Selection.pdf\" target=\"_blank\">Leximax Approximations and Representative Cohort Selection</a>",
+    "Year": 2022,
+    "Source Title": "Leibniz International Proceedings in Informatics, LIPIcs",
+    "Ref Summary": "shows that fair and diverse selection is a key focus in ML fairness research, with prior work proposing specific metrics to evaluate diversity in representative data selection."
+  },
+  {
+    "Authors": "Maronikolakis A. et al.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Maronikolakis A. et al. - 2022 - Listening to Affected Communities to Define Extreme Speech_ Dataset and Experiments.pdf\" target=\"_blank\">Listening to Affected Communities to Define Extreme Speech: Dataset and Experiments</a>",
+    "Year": 2022,
+    "Source Title": "Proceedings of the Annual Meeting of the Association for Computational Linguistics",
+    "Ref Summary": "highlights ongoing ethical discussions in AI, emphasizing the need for inclusive data annotation, accountable deployment practices, and broader engagement with ethical dilemmas in NLP development."
+  },
+  {
+    "Authors": "Chen H. et al.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Chen H. et al. - 2024 - LIVE-ITS_ LSH-based Interactive Visualization Explorer for Large-Scale Incomplete Time Series.pdf\" target=\"_blank\">LIVE-ITS: LSH-based Interactive Visualization Explorer for Large-Scale Incomplete Time Series</a>",
+    "Year": 2024,
+    "Source Title": "Proceedings - 2024 IEEE International Conference on Big Data, BigData 2024",
+    "Ref Summary": "supports the importance of subset selection across various applications, emphasizing its role in efficiently representing larger datasets in tasks like video summarization and scene categorization."
+  },
+  {
+    "Authors": "Yucer S. et al.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Yucer S. et al. - 2022 - Measuring Hidden Bias within Face Recognition via Racial Phenotypes.pdf\" target=\"_blank\">Measuring Hidden Bias within Face Recognition via Racial Phenotypes</a>",
+    "Year": 2022,
+    "Source Title": "Proceedings - 2022 IEEE/CVF Winter Conference on Applications of Computer Vision, WACV 2022",
+    "Ref Summary": "highlights the limitations of binary racial classifications in fully capturing the complexity of racial bias"
+  },
+  {
+    "Authors": "Young E. et al.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Young E. et al. - 2023 - Mind the gender gap_ Inequalities in the emergent professions of artificial intelligence (AI) and data science.pdf\" target=\"_blank\">Mind the gender gap: Inequalities in the emergent professions of artificial intelligence (AI) and data science</a>",
+    "Year": 2023,
+    "Source Title": "New Technology, Work and Employment",
+    "Ref Summary": "warns against \"participation-washing,\" stressing that mere involvement of individuals does not equate to ethical legitimacy in AI practices."
+  },
+  {
+    "Authors": "Zhang L. et al.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Zhang L. et al. - 2024 - Partiality and Misconception_ Investigating Cultural Representativeness in Text-To-Image Models.pdf\" target=\"_blank\">Partiality and Misconception: Investigating Cultural Representativeness in Text-To-Image Models</a>",
+    "Year": 2024,
+    "Source Title": "Conference on Human Factors in Computing Systems - Proceedings",
+    "Ref Summary": "highlights that while multimodal AI advances have broadened societal applications, they also introduce new risks—especially the propagation of social biases from datasets into downstream tasks like image search and captioning."
+  },
+  {
+    "Authors": "Gleason J. et al.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Gleason J. et al. - 2024 - Perceptions in Pixels_ Analyzing Perceived Gender and Skin Tone in Real-world Image Search Results.pdf\" target=\"_blank\">Perceptions in Pixels: Analyzing Perceived Gender and Skin Tone in Real-world Image Search Results</a>",
+    "Year": 2024,
+    "Source Title": "WWW 2024 - Proceedings of the ACM Web Conference",
+    "Ref Summary": "advocates for diversity and inclusion metrics that account for perception and extend beyond conventional group fairness approaches."
+  },
+  {
+    "Authors": "Porcaro L. et al.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Porcaro L. et al. - 2022 - Perceptions of Diversity in Electronic Music_ the Impact of Listener, Artist, and Track Characteristics.pdf\" target=\"_blank\">Perceptions of Diversity in Electronic Music: the Impact of Listener, Artist, and Track Characteristics</a>",
+    "Year": 2022,
+    "Source Title": "Proceedings of the ACM on Human-Computer Interaction",
+    "Ref Summary": "underscores the importance of thoughtfully selecting attributes—such as skin tone—when introducing diversity metrics, as these choices directly impact how inclusion and fairness are measured."
+  },
+  {
+    "Authors": "Perez-Salazar S. et al.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Perez-Salazar S. et al. - 2021 - Preserving Diversity when Partitioning_ A Geometric Approach.pdf\" target=\"_blank\">Preserving Diversity when Partitioning: A Geometric Approach</a>",
+    "Year": 2021,
+    "Source Title": "ACM International Conference Proceeding Series",
+    "Ref Summary": "underscores that growing societal concerns about emerging technologies and datasets have driven the ML and AI communities to explore diversity, inclusion, and representation as essential components of fair and equitable decision-making systems."
+  },
+  {
+    "Authors": "Lewandowski D. and Schultheiß S.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Lewandowski D. and Schultheiß S. - 2023 - Public awareness and attitudes towards search engine optimization.pdf\" target=\"_blank\">Public awareness and attitudes towards search engine optimization</a>",
+    "Year": 2023,
+    "Source Title": "Behaviour and Information Technology",
+    "Ref Summary": "illustrates that search engine companies are actively pursuing diversity in search results by incorporating varied sources and perspectives, as part of broader efforts to mitigate bias and promote fairness."
+  },
+  {
+    "Authors": "Yucer S. et al.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Yucer S. et al. - 2024 - Racial Bias within Face Recognition_ A Survey.pdf\" target=\"_blank\">Racial Bias within Face Recognition: A Survey</a>",
+    "Year": 2024,
+    "Source Title": "ACM Computing Surveys",
+    "Ref Summary": "acknowledges that racial and ethnic data are sensitive, and aligns with major studies in face recognition that emphasize the ethical and privacy concerns tied to using such information in algorithmic systems."
+  },
+  {
+    "Authors": "Vrijenhoek S. et al.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Vrijenhoek S. et al. - 2022 - RADio-Rank-Aware Divergence Metrics to Measure Normative Diversity in News Recommendations.pdf\" target=\"_blank\">RADio-Rank-Aware Divergence Metrics to Measure Normative Diversity in News Recommendations</a>",
+    "Year": 2022,
+    "Source Title": "RecSys 2022 - Proceedings of the 16th ACM Conference on Recommender Systems",
+    "Ref Summary": "illustrates the broad scope of diversity, ranging from ecological contexts to its use as a proxy for fairness in machine learning systems."
+  },
+  {
+    "Authors": "Bergman A.S. et al.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Bergman A.S. et al. - 2023 - Representation in AI Evaluations.pdf\" target=\"_blank\">Representation in AI Evaluations</a>",
+    "Year": 2023,
+    "Source Title": "ACM International Conference Proceeding Series",
+    "Ref Summary": "indicates that representativity can be assessed both qualitatively—using data exploration tools—and quantitatively—via metrics that capture aspects like diversity and data density."
+  },
+  {
+    "Authors": "Ulloa R. et al.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Ulloa R. et al. - 2024 - Representativeness and face-ism_ Gender bias in image search.pdf\" target=\"_blank\">Representativeness and face-ism: Gender bias in image search</a>",
+    "Year": 2024,
+    "Source Title": "New Media and Society",
+    "Ref Summary": "suggests that Google is actively working to enhance its public image by promoting greater transparency in search systems and advancing initiatives focused on diversity."
+  },
+  {
+    "Authors": "Hundt A. et al.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Hundt A. et al. - 2022 - Robots Enact Malignant Stereotypes.pdf\" target=\"_blank\">Robots Enact Malignant Stereotypes</a>",
+    "Year": 2022,
+    "Source Title": "ACM International Conference Proceeding Series",
+    "Ref Summary": "highlights that both Hanna et al. and the work on Diversity and Inclusion Metrics address algorithmic fairness, specifically in the collection, handling, and sampling of human data."
+  },
+  {
+    "Authors": "Adebara I. et al.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Adebara I. et al. - 2023 - SERENGETI_ Massively Multilingual Language Models for Africa.pdf\" target=\"_blank\">SERENGETI: Massively Multilingual Language Models for Africa</a>",
+    "Year": 2023,
+    "Source Title": "Proceedings of the Annual Meeting of the Association for Computational Linguistics",
+    "Ref Summary": "supports the definitions of diversity and inclusion, and emphasize that imbalanced representation in training data can lead to amplified biases in NLP systems."
+  },
+  {
+    "Authors": "Cheng M. et al.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Cheng M. et al. - 2023 - Social norm bias_ residual harms of fairness-aware algorithms.pdf\" target=\"_blank\">Social norm bias: residual harms of fairness-aware algorithms</a>",
+    "Year": 2023,
+    "Source Title": "Data Mining and Knowledge Discovery",
+    "Ref Summary": "argues that using names or pronouns as proxies for gender enforces rigid categorical definitions, which can exacerbate harm toward individuals marginalized by such oversimplified constructs."
+  },
+  {
+    "Authors": "Dieterle E. et al.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Dieterle E. et al. - 2024 - The cyclical ethical effects of using artificial intelligence in education.pdf\" target=\"_blank\">The cyclical ethical effects of using artificial intelligence in education</a>",
+    "Year": 2024,
+    "Source Title": "AI and Society",
+    "Ref Summary": "stresses the importance of developers proactively documenting and addressing inclusivity, stakeholder perspectives, and ethical risks to ensure algorithms are fair, representative, and protective of all populations."
+  },
+  {
+    "Authors": "Radford J. and Joseph K.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Radford J. and Joseph K. - 2020 - Theory In, Theory Out_ The Uses of Social Theory in Machine Learning for Social Science.pdf\" target=\"_blank\">Theory In, Theory Out: The Uses of Social Theory in Machine Learning for Social Science</a>",
+    "Year": 2020,
+    "Source Title": "Frontiers in Big Data",
+    "Ref Summary": "formalizes fairness as a purely technical concept, emphasizing the need to consider social, contextual, and normative complexities."
+  },
+  {
+    "Authors": "Mitra S. et al.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Mitra S. et al. - 2024 - Towards Inclusive Cybersecurity_ Protecting the Vulnerable with Social Cyber Vulnerability Metrics.pdf\" target=\"_blank\">Towards Inclusive Cybersecurity: Protecting the Vulnerable with Social Cyber Vulnerability Metrics</a>",
+    "Year": 2024,
+    "Source Title": "Proceedings - 2024 IEEE 6th International Conference on Trust, Privacy and Security in Intelligent Systems, and Applications, TPS-ISA 2024",
+    "Ref Summary": "supports the idea that diversity and inclusion metrics serve as tools to monitor and evaluate progress toward more inclusive and equitable practices."
+  },
+  {
+    "Authors": "Gawron G. and Faliszewski P.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Gawron G. and Faliszewski P. - 2024 - Using multiwinner voting to search for movies.pdf\" target=\"_blank\">Using multiwinner voting to search for movies</a>",
+    "Year": 2024,
+    "Source Title": "Theory and Decision",
+    "Ref Summary": "distinguishes between heterogeneity—general variety in a result set—and diversity, which specifically refers to variation across sociopolitical attributes like gender, age, or race."
+  },
+  {
+    "Authors": "Rakova B. et al.",
+    "Title": "<a href=\"./precedent_studies/bib_others/files/Rakova B. et al. - 2021 - Where Responsible AI meets Reality_ Practitioner Perspectives on Enablers for Shifting Organizational Practices.pdf\" target=\"_blank\">Where Responsible AI meets Reality: Practitioner Perspectives on Enablers for Shifting Organizational Practices</a>",
+    "Year": 2021,
+    "Source Title": "Proceedings of the ACM on Human-Computer Interaction",
+    "Ref Summary": "indicates that tools like metrics have been developed to support auditing for fairness and diversity in specific applications, such as image search."
+  }
+]
