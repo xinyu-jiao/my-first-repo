@@ -5,7 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Xinyu Jiao — Personal Site</title>
   <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128/examples/js/controls/OrbitControls.js"></script>
 </head>
+
 <body>
   <!-- ===== Personal information ===== -->
   <section id="personal-info" class="card">
@@ -87,8 +91,29 @@
         <h3 class="toggle" data-target="course-a4163">A4163</h3>
 
         <div id="course-a4163" class="content">
-            <button id="clickMeBtn" class="click-me-btn">click me</button>
-            <span id="clickMsg" style="margin-left:10px;"></span>
+            <h4>2D Spatial Canvas</h4>
+            
+            <div class="canvas-wrapper">
+                <h5>1. Static Drawing</h5>
+                <div id="canvas-container-1"></div>
+            </div>
+
+            <div class="canvas-wrapper">
+                <h5>2. Interactive Drawing</h5>
+                <div id="canvas-container-2"></div>
+            </div>
+
+            <h4>3D Spatial Canvas</h4>
+            
+            <div class="canvas-wrapper">
+                <h5>1. Rotating Box</h5>
+                <div id="canvas-container-3"></div>
+            </div>
+
+            <div class="canvas-wrapper">
+                <h5>2. Interactive 3D</h5>
+                <div id="canvas-container-4"></div>
+            </div>
         </div>
     </div>
     
