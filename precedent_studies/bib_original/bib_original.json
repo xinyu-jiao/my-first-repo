@@ -1,5 +1,12 @@
 [
   {
+    "Authors": "Pearce A. et al.",
+    "Title": "<a href=\"./precedent_studies/bib_original/files/Screenshot_Measuring_Diversity.png\" target=\"_blank\">Measuring Diversity</a>",
+    "Year": 2021,
+    "Source Title": "<a href=\"https://pair.withgoogle.com/explorables/measuring-diversity/\" target=\"_blank\">Measuring Diversity</a>",
+    "Audience": "AI/ML developers, students, product managers, policymakers, and journalists."
+  },
+  {
     "Authors": "Mitchell M. et al.",
     "Title": "<a href=\"./precedent_studies/bib_original/files/Mitchell M. et al. - 2020 - Diversity and Inclusion Metrics in Subset Selection.pdf\" target=\"_blank\">Diversity and Inclusion Metrics in Subset Selection</a>",
     "Year": 2020,
