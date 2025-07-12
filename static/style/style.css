@@ -142,3 +142,16 @@ th:nth-child(5), td:nth-child(5) { width: 2000px; }
   border: 1px solid \#ccc;
   border-radius: 4px;
 }
+
+.md-table {
+  table-layout: auto !important;
+  width: auto !important;
+  white-space: normal !important;
+}
+
+.md-table th, .md-table td {
+  white-space: normal !important;
+  overflow: visible !important;
+  text-overflow: initial !important;
+  width: auto !important;
+}

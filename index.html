@@ -4,10 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Xinyu Jiao — Personal Site</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./static/style/style.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/three@0.128/examples/js/controls/OrbitControls.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 
 <body>
@@ -84,6 +86,27 @@
                 </table>
             </div>
         </div><!-- /datasheet -->
+        <h4 class="toggle" data-target="three-layer-analysis">Precedent 3-Layer Analysis</h4>
+        <div id="three-layer-analysis" class="content">
+            <div class="layer-analysis">
+                <h5 class="toggle" data-target="ontological-analysis">1. Ontological Analysis</h5>
+                <div id="ontological-analysis" class="content">
+                    <div id="ontological-md"></div>
+                </div>
+            </div>
+            <div class="layer-analysis">
+                <h5 class="toggle" data-target="historical-analysis">2. Historical &amp; Contextual Analysis</h5>
+                <div id="historical-analysis" class="content">
+                    <div id="historical-md"></div>
+                </div>
+            </div>
+            <div class="layer-analysis">
+                <h5 class="toggle" data-target="visual-analysis">3. Visual &amp; Aesthetic Analysis</h5>
+                <div id="visual-analysis" class="content">
+                    <div id="visual-md"></div>
+                </div>
+            </div>
+        </div><!-- /three-layer-analysis -->
         </div><!-- /course-a4144 -->
     </div>
 
@@ -91,34 +114,60 @@
         <h3 class="toggle" data-target="course-a4163">A4163</h3>
 
         <div id="course-a4163" class="content">
-            <h4>2D Spatial Canvas</h4>
+            <h4 class="toggle" data-target="a4163-2d-canvas">2D Spatial Canvas</h4>
+            <div id="a4163-2d-canvas" class="content">
+                <div class="canvas-wrapper">
+                    <h5>1. Static Drawing</h5>
+                    <div id="canvas-container-1"></div>
+                </div>
+                <div class="canvas-wrapper">
+                    <h5>2. Interactive Drawing</h5>
+                    <div id="canvas-container-2"></div>
+                </div>
+            </div>
+
+            <h4 class="toggle" data-target="a4163-3d-canvas">3D Spatial Canvas</h4>
+            <div id="a4163-3d-canvas" class="content">
+                <div class="canvas-wrapper">
+                    <h5>1. Rotating Box</h5>
+                    <div id="canvas-container-3"></div>
+                </div>
+                <div class="canvas-wrapper">
+                    <h5>2. Interactive 3D</h5>
+                    <div id="canvas-container-4"></div>
+                </div>
+            </div>
             
-            <div class="canvas-wrapper">
-                <h5>1. Static Drawing</h5>
-                <div id="canvas-container-1"></div>
-            </div>
-
-            <div class="canvas-wrapper">
-                <h5>2. Interactive Drawing</h5>
-                <div id="canvas-container-2"></div>
-            </div>
-
-            <h4>3D Spatial Canvas</h4>
-            
-            <div class="canvas-wrapper">
-                <h5>1. Rotating Box</h5>
-                <div id="canvas-container-3"></div>
-            </div>
-
-            <div class="canvas-wrapper">
-                <h5>2. Interactive 3D</h5>
-                <div id="canvas-container-4"></div>
+            <h4 class="toggle" data-target="a4163-temporal">Temporal Structure</h4>
+            <div id="a4163-temporal" class="content">
+                <div class="temporal-structure">
+                    <h5>1. From Synthetic Data</h5>
+                    <div id="temporal-container-1"></div>
+                    <h6>Histogram</h6>
+                    <div id="synthetic-histogram"></div>
+                    <h6>Extrema</h6>
+                    <div id="synthetic-extrema"></div>
+                </div>
+                <div class="temporal-structure">
+                    <h5>2. From Event Data</h5>
+                    <div id="temporal-container-2"></div>
+                    <h6>Duration</h6>
+                    <div id="event-duration-hist"></div>
+                </div>
+                <p>The temporal structure can be used in precedent studies to analyze 
+                    the number of citations received by the original paper after its publication or acceptance over the years (data from Scopus), 
+                    as well as the trends in click rates or reading volumes (such data may not be accessible).</p>
             </div>
         </div>
     </div>
     
   </section><!-- /courses -->
 
-  <script src="script.js"></script>
+  <script src="static/js/toggles.js"></script>
+  <script src="static/js/table.js"></script>
+  <script src="static/js/sketches.js"></script>
+  <script src="static/js/visualization.js"></script>
+  <script src="static/js/markdown.js"></script>
+  <script src="static/js/main.js"></script>
 </body>
 </html>
