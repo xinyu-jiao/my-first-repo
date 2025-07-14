@@ -18,4 +18,19 @@ document.addEventListener('DOMContentLoaded', function () {
     if (document.getElementById('visual-md')) {
         loadMarkdown('./precedent_studies/3_layer/visual_aesthetic/visual_aesthetic_analysis.md', 'visual-md');
     }
+    if (document.getElementById('relational-diagrams-md')) {
+        loadMarkdown('./precedent_studies/relational_diagrams/relational_diagrams.md', 'relational-diagrams-md');
+    }
+    if (document.getElementById('methodology-implementation-md')) {
+        loadMarkdown('./precedent_studies/methodology_implementation/methodology_implementation.md', 'methodology-implementation-md');
+    }
+    if (document.getElementById('critical-rhetorical-analysis-md')) {
+        loadMarkdown('./precedent_studies/critical_rhetorical_analysis/critical_rhetorical_analysis.md', 'critical-rhetorical-analysis-md');
+    }
+    if (document.getElementById('position-in-authors-practice-md')) {
+        loadMarkdown('./precedent_studies/position_in_authors_practice/position_in_authors_practice.md', 'position-in-authors-practice-md');
+    }
+    if (document.getElementById('personal-assessment-md')) {
+        loadMarkdown('./precedent_studies/personal_assessment/personal_assessment.md', 'personal-assessment-md');
+    }
 });

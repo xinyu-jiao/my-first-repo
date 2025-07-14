@@ -1,0 +1,5 @@
+| Aspect                   | Appraisal                                                    | Critique & Future Work                                       |
+| ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **Theory↔Practice Loop** | Seamless—from axioms to MTurk validation.                    | Attribute annotation at scale remains costly; intersectional labels sparse. |
+| **Public Communication** | Minimalist UI lowers cognitive load; storybook flow resonates. | Sanitised toy examples underplay real-world harms; richer case-studies (e.g., search stereotypes) would strengthen. |
+| **Metric Design**        | Presence + Inclusion + social choice couplers cover both group and individual lenses. | Static target bounds presume stable demographics; adaptive or community-governed targets would be more robust. |

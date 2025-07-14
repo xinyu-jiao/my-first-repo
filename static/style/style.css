@@ -155,3 +155,28 @@ th:nth-child(5), td:nth-child(5) { width: 2000px; }
   text-overflow: initial !important;
   width: auto !important;
 }
+
+#relational-diagrams-md img[alt="Mermaid Chart"] {
+  max-width: 960px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em auto;
+}
+
+#relational-diagrams-md img[alt="UML PLOTTING"] {
+  max-width: 360px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em auto;
+}
+
+.citation-images img {
+  display: block;
+  margin: 1em 0 1em 0;
+  max-width: 640px;
+  width: 100%;
+  height: auto;
+  text-align: left;
+}

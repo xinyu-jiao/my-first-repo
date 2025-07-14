@@ -10,6 +10,7 @@
   <script src="https://cdn.jsdelivr.net/npm/three@0.128/examples/js/controls/OrbitControls.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
 </head>
 
 <body>
@@ -84,6 +85,16 @@
                     <tr><td colspan="5" style="text-align:center;">Loading…</td></tr>
                 </tbody>
                 </table>
+                <div class="citation-images">
+                    <div style="text-align:left; margin: 1em 0 0.2em 0;">
+                        <strong>Citation Trend</strong>
+                    </div>
+                    <img src="./precedent_studies/bib_others/CitationTrend.png" alt="Citation Trend" style="max-width:640px;width:100%;height:auto;display:block;margin:1em 0 1em 0; text-align:left;">
+                    <div style="text-align:left; margin: 1em 0 0.2em 0;">
+                        <strong>Citation Area</strong>
+                    </div>
+                    <img src="./precedent_studies/bib_others/CitationType.png" alt="Citation Type" style="max-width:640px;width:100%;height:auto;display:block;margin:1em 0 1em 0; text-align:left;">
+                </div>
             </div>
         </div><!-- /datasheet -->
         <h4 class="toggle" data-target="three-layer-analysis">Precedent 3-Layer Analysis</h4>
@@ -107,6 +118,26 @@
                 </div>
             </div>
         </div><!-- /three-layer-analysis -->
+        <h4 class="toggle" data-target="relational-diagrams">1. Relational Diagrams</h4>
+        <div id="relational-diagrams" class="content">
+            <div id="relational-diagrams-md"></div>
+        </div>
+        <h4 class="toggle" data-target="methodology-implementation">2. Methodology Implementation</h4>
+        <div id="methodology-implementation" class="content">
+            <div id="methodology-implementation-md"></div>
+        </div>
+        <h4 class="toggle" data-target="critical-rhetorical-analysis">3. Critical Rhetorical Analysis</h4>
+        <div id="critical-rhetorical-analysis" class="content">
+            <div id="critical-rhetorical-analysis-md"></div>
+        </div>
+        <h4 class="toggle" data-target="position-in-authors-practice">4. Position In Authors Practice</h4>
+        <div id="position-in-authors-practice" class="content">
+            <div id="position-in-authors-practice-md"></div>
+        </div>
+        <h4 class="toggle" data-target="personal-assessment">5. Personal Assessment</h4>
+        <div id="personal-assessment" class="content">
+            <div id="personal-assessment-md"></div>
+        </div>
         </div><!-- /course-a4144 -->
     </div>
 

@@ -1,0 +1,7 @@
+| Sub-section                       | Details / Talking Points                                     |
+| --------------------------------- | ------------------------------------------------------------ |
+| **Formal definitions**            | *Presence* quantifies how close attribute *a* is to target bounds in an instance: `Presence_a(x_q) = f(a(x_q), l_a, u_a)` – simplest *f* is an indicator on proportion ≥ l_a .*Diversity* aggregates Presence across attributes via social-choice cumulator *g* (min/avg/max) .*Inclusion* measures representativeness of a set for a specific person *p* along attribute *a*; relies on `rep_a(i,p,q)` and item relevance `rel(i,q)` |
+| **Aggregation via social choice** | Three ethical lenses:• *Utilitarian* (mean)• *Egalitarian / Maximin* (min) • *Nash welfare* (geometric mean) – mix of both |
+| **Data & Experiments**            | 4 × image-set conditions (D+I+, D+I−, D−I+, D−I−) over 8 occupations; 491 validated MTurk comparisons show D+I+ rated highest on both concepts |
+| **Implementation stack**          | • Python Colab (open-source metrics)• Web Explorable: D3.js/Canvas; 60-sec interactive demo for lay audience• Inputs: attribute-labeled image corpus or search-index• Outputs: ranked subset + per-item scores CSV |
+| **Theoretical anchoring**         | Differentiates *diversity* (social power differentials) from generic heterogeneity; positions metrics relative to group/individual fairness literatures |
