@@ -33,4 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (document.getElementById('personal-assessment-md')) {
         loadMarkdown('./precedent_studies/personal_assessment/personal_assessment.md', 'personal-assessment-md');
     }
+    if (document.getElementById('d3-relational-container')) {
+        drawRelationalGraph();
+    }
 });
