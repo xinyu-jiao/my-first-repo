@@ -11,6 +11,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet">
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
 </head>
 
 <body>
@@ -195,11 +197,17 @@
                     the number of citations received by the original paper after its publication or acceptance over the years (data from Scopus), 
                     as well as the trends in click rates or reading volumes (such data may not be accessible).</p>
             </div>
+            
             <h4 class="toggle" data-target="a4163-relational">Relational Structure</h4>
             <div id="a4163-relational" class="content">
                 <div id="d3-relational-container"></div>
             </div>
-        </div>
+
+            <h4 class="toggle" data-target="a4163-mapbox">Spatial Structure</h4>
+            <div id="a4163-mapbox" class="content">
+                <div id="mapbox-spatial-container"></div>
+                <p>A geospatial structure like this Mapbox visualization can help me see where cultural sites—like museums and galleries—are located in a city like Chicago. By mapping them out, I can spot which areas I've already visited, which ones I might want to explore next, and how close they are to things like public transit or food spots. It's also useful for planning trips or weekend walks based on what's nearby.</p>
+            </div>
     </div>
     
   </section><!-- /courses -->
@@ -211,5 +219,6 @@
   <script src="static/js/markdown.js"></script>
   <script src="static/js/main.js"></script>
   <script src="static/js/relational.js"></script>
+  <script src="static/js/mapbox.js"></script>
 </body>
 </html>

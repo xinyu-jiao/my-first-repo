@@ -36,4 +36,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (document.getElementById('d3-relational-container')) {
         drawRelationalGraph();
     }
+    if (document.getElementById('mapbox-spatial-container')) {
+        loadMapbox();
+    }
 });

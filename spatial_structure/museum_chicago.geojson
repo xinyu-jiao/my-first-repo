@@ -1,0 +1,93 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Art Institute of Chicago",
+        "description": "One of the oldest and largest art museums in the United States, known for its Impressionist collection."
+      },
+      "geometry": {
+        "coordinates": [-87.6223753577732, 41.87955889103699],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Money Museum",
+        "description": "An interactive museum at the Federal Reserve Bank of Chicago exploring currency and financial history."
+      },
+      "geometry": {
+        "coordinates": [-87.6325708658887, 41.87832790808713],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Field Museum of Natural History",
+        "description": "A world-renowned natural history museum home to Sue the T. rex and extensive anthropological collections."
+      },
+      "geometry": {
+        "coordinates": [-87.61700549158881, 41.866208520406786],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dreihaus Gallery of Stained Glass",
+        "description": "A stunning collection of American and European stained glass art inside Navy Pier."
+      },
+      "geometry": {
+        "coordinates": [-87.60133488414083, 41.89135746957939],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Museum of Contemporary Art",
+        "description": "One of the nation’s largest contemporary art museums, featuring rotating exhibitions of modern works."
+      },
+      "geometry": {
+        "coordinates": [-87.62117687342715, 41.89722314171337],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chicago History Museum",
+        "description": "A museum dedicated to Chicago's rich and complex history through artifacts, exhibitions, and storytelling."
+      },
+      "geometry": {
+        "coordinates": [-87.63148430349295, 41.912020284662475],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chicago Cultural Center",
+        "description": "A landmark building offering free art exhibits and events, known for its stunning Tiffany glass dome."
+      },
+      "geometry": {
+        "coordinates": [-87.62481870699041, 41.88384256257763],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chicago Architecture Center",
+        "description": "A hub for architectural exhibits and river tours showcasing Chicago’s iconic skyline and design legacy."
+      },
+      "geometry": {
+        "coordinates": [-87.62360119398397, 41.887990340789],
+        "type": "Point"
+      }
+    }
+  ]
+}
