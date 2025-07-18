@@ -12,6 +12,13 @@ function initializeToggles() {
                     }
                 }, 350);
             }
+            if (targetId === 'a4165-ip-map') {
+                setTimeout(() => {
+                    if (typeof resizeLeafletIpMap === 'function') {
+                    resizeLeafletIpMap();
+                    }
+                }, 350);
+            }
             const isOpen = target.style.display === 'block';
             target.style.display = isOpen ? 'none' : 'block';
             heading.classList.toggle('expanded', !isOpen);

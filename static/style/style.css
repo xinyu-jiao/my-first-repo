@@ -194,3 +194,11 @@ th:nth-child(5), td:nth-child(5) { width: 2000px; }
   margin: 40px 0;
   display: block;
 }
+
+#leaflet-ipmap-container {
+  width: 100%;
+  height: 400px;
+  min-height: 300px;
+  margin-top: 1em;
+  border: 1px solid #ccc;
+}

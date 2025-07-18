@@ -39,4 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (document.getElementById('mapbox-spatial-container')) {
         loadMapbox();
     }
+    if (document.getElementById('a4165-ip-map')) {
+    loadLeafletIpMap();
+    }
 });

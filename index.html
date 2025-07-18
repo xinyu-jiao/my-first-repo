@@ -13,6 +13,8 @@
   <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
   <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet">
   <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 </head>
 
 <body>
@@ -208,7 +210,17 @@
                 <div id="mapbox-spatial-container"></div>
                 <p>A geospatial structure like this Mapbox visualization can help me see where cultural sites—like museums and galleries—are located in a city like Chicago. By mapping them out, I can spot which areas I've already visited, which ones I might want to explore next, and how close they are to things like public transit or food spots. It's also useful for planning trips or weekend walks based on what's nearby.</p>
             </div>
-    </div>
+        </div>
+    </div><!-- /course-a4163 -->
+    <div class="course-title-indent">
+        <h3 class="toggle" data-target="course-a4165">A4165</h3>
+
+        <div id="course-a4165" class="content">
+            <h4 class="toggle" data-target="a4165-ip-map">IP Map</h4>
+            <div id="a4165-ip-map" class="content"></div>
+        </div>
+    </div><!-- /course-a4165 -->
+
     
   </section><!-- /courses -->
 
@@ -220,5 +232,6 @@
   <script src="static/js/main.js"></script>
   <script src="static/js/relational.js"></script>
   <script src="static/js/mapbox.js"></script>
+  <script src="static/js/ipmap.js"></script>
 </body>
 </html>
