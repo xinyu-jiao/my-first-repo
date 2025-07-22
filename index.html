@@ -15,6 +15,8 @@
   <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-database-compat.js"></script>
 </head>
 
 <body>
@@ -210,6 +212,28 @@
                 <div id="mapbox-spatial-container"></div>
                 <p>A geospatial structure like this Mapbox visualization can help me see where cultural sites—like museums and galleries—are located in a city like Chicago. By mapping them out, I can spot which areas I've already visited, which ones I might want to explore next, and how close they are to things like public transit or food spots. It's also useful for planning trips or weekend walks based on what's nearby.</p>
             </div>
+
+            <h4 class="toggle" data-target="a4163-poll">Engagement Poll</h4>
+            <div id="a4163-poll" class="content">
+            <div id="poll-container" class="poll-container">
+                <p class="poll-question">
+                Which part of the A4163 workshop helps you learn the most?
+                </p>
+
+                <div class="vote-buttons">
+                <button id="vote-yes" class="vote-btn">Spatial / Canvas</button>
+                <button id="vote-no"  class="vote-btn btn-secondary">Temporal / Data</button>
+                </div>
+
+                <p class="vote-results">
+                <span class="vote-count" id="yes-count">0</span> / 
+                <span class="vote-count" id="no-count">0</span>
+                (total: <span class="vote-count" id="total-count">0</span>)
+                </p>
+
+                <div id="connection-status" class="status-display">Connecting…</div>
+            </div>
+            </div>
         </div>
     </div><!-- /course-a4163 -->
     <div class="course-title-indent">
@@ -233,5 +257,6 @@
   <script src="static/js/relational.js"></script>
   <script src="static/js/mapbox.js"></script>
   <script src="static/js/ipmap.js"></script>
+  <script src="static/js/poll-app.js"></script>
 </body>
 </html>

@@ -42,4 +42,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (document.getElementById('a4165-ip-map')) {
     loadLeafletIpMap();
     }
+    if (document.getElementById('poll-container')) {
+    initializePoll && initializePoll();
+    }
 });

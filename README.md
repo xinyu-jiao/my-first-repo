@@ -11,3 +11,5 @@ Update for 07142025: I've uploaded all the contents of precedent studies to Cour
 Update for 07162025: I've uploaded the spatial structure on the page Courses>A4163>Spatial Structure for your review. Below the mapbox is my description for the point 6 in assignment instruction.
 
 Update for 07182025: Hi Mario. I've uploaded and incorporated the hw 3 into this personal website from ARCH4163 course, which you could find the content at Courses>A4165>IP Map. The js script is stored at ./static/js/ipmap.js, and the geojson file and screenshot are located at ./ip_map/ for your reivew. The HAR file is from https://www.artic.edu/, which is the website of The Art Institute of Chicago. Thanks! 
+
+Update for 07212025: I've uploaded the poll component into Courses>A4163>Engagement Poll for your review.

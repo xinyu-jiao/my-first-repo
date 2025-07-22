@@ -202,3 +202,22 @@ th:nth-child(5), td:nth-child(5) { width: 2000px; }
   margin-top: 1em;
   border: 1px solid #ccc;
 }
+
+.poll-container{
+  margin:32px 0; padding:32px;
+  border:1px solid #eee; border-radius:8px;
+  background:#fafafa; text-align:center;
+}
+.vote-buttons{display:flex;justify-content:center;gap:24px;margin:24px 0;}
+.vote-btn{
+  background:#111;color:#fff;border:none;
+  padding:12px 32px;border-radius:4px;font-size:16px;
+  cursor:pointer;transition:transform .2s,background-color .2s;
+}
+.vote-btn:hover{background:#333;transform:translateY(-2px);}
+.vote-count{font-weight:700;font-size:20px;margin:0 4px;}
+.status-display{margin-top:12px;font-size:14px;color:#666;}
+@media(max-width:768px){
+  .vote-buttons{flex-direction:column;gap:16px;}
+  .vote-btn{width:100%;}
+}
