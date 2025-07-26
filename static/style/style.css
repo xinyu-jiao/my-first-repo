@@ -221,3 +221,10 @@ th:nth-child(5), td:nth-child(5) { width: 2000px; }
   .vote-buttons{flex-direction:column;gap:16px;}
   .vote-btn{width:100%;}
 }
+
+.restaurant-marker {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+}

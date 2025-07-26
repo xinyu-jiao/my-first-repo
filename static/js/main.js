@@ -40,9 +40,12 @@ document.addEventListener('DOMContentLoaded', function () {
         loadMapbox();
     }
     if (document.getElementById('a4165-ip-map')) {
-    loadLeafletIpMap();
+        loadLeafletIpMap();
     }
     if (document.getElementById('poll-container')) {
     initializePoll && initializePoll();
+    }
+    if (document.getElementById('a4165-supabase-map')) {
+        initSupabaseMap();
     }
 });

@@ -17,6 +17,9 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-database-compat.js"></script>
+  <script src="https://unpkg.com/maplibre-gl@^5.6.1/dist/maplibre-gl.js"></script>
+  <link href="https://unpkg.com/maplibre-gl@^5.6.1/dist/maplibre-gl.css" rel="stylesheet" />
+  <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
 </head>
 
 <body>
@@ -242,7 +245,12 @@
         <div id="course-a4165" class="content">
             <h4 class="toggle" data-target="a4165-ip-map">IP Map</h4>
             <div id="a4165-ip-map" class="content"></div>
+            <h4 class="toggle" data-target="a4165-supabase-map-wrapper">Supabase Spatial Map</h4>
+            <div id="a4165-supabase-map-wrapper" class="content">
+            <div id="a4165-supabase-map" style="width: 100%; height: 500px;"></div>
+            </div>
         </div>
+
     </div><!-- /course-a4165 -->
 
     
@@ -258,5 +266,6 @@
   <script src="static/js/mapbox.js"></script>
   <script src="static/js/ipmap.js"></script>
   <script src="static/js/poll-app.js"></script>
+  <script src="static/js/supabase-map.js"></script>
 </body>
 </html>
