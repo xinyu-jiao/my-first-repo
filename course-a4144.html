@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A4144 — Xinyu Jiao</title>
+  <link rel="stylesheet" href="./static/style/style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <!-- Top banner bar (links) -->
+  <nav class="banner-bar" aria-label="Main sections">
+    <a class="banner-link" href="./index.html"><span class="banner-title">Home</span></a>
+    <a class="banner-link" href="./course-a4144.html"><span class="banner-title">A4144</span><span class="banner-sub">Colloquium</span></a>
+    <a class="banner-link" href="./course-a4163.html"><span class="banner-title">A4163</span><span class="banner-sub">Workflows</span></a>
+    <a class="banner-link" href="./course-a4165.html"><span class="banner-title">A4165</span><span class="banner-sub">Mapping Systems</span></a>
+    <a class="banner-link" href="https://issuu.com/12080812/docs/issuu_"><span class="banner-title">Portfolio</span><span class="banner-sub">Isuuu</span></a>
+    <a class="banner-link" href="https://xinyu-jiao.github.io/colloquium-project/"><span class="banner-title">Capstone</span><span class="banner-sub">GSAPP Colloquium</span></a>
+  </nav>
+  <div class="section">
+    <div class="container">
+      <h1>A4144</h1>
+      <div class="card">
+        <h2>Precedent Datasheet</h2>
+        <div class="table-scroll">
+          <table id="table-original"><thead><tr><th>Title</th><th>Author</th><th>Year</th><th>Format</th><th>Audience</th></tr></thead><tbody><tr><td colspan="5" style="text-align:center;">Loading…</td></tr></tbody></table>
+        </div>
+        <div class="table-scroll">
+          <table id="table-authors"><thead><tr><th>Title</th><th>Author</th><th>Year</th><th>Format</th></tr></thead><tbody><tr><td colspan="4" style="text-align:center;">Loading…</td></tr></tbody></table>
+        </div>
+        <div class="table-scroll">
+          <table id="table-others"><thead><tr><th>Title</th><th>Author</th><th>Year</th><th>Format</th><th>Ref Summary</th></tr></thead><tbody><tr><td colspan="5" style="text-align:center;">Loading…</td></tr></tbody></table>
+        </div>
+        <div class="citation-images" style="margin-top:12px;">
+          <div style="text-align:left; margin: 1em 0 0.2em 0;"><strong>Citation Trend</strong></div>
+          <img src="./precedent_studies/bib_others/CitationTrend.png" alt="Citation Trend" style="max-width:640px;width:100%;height:auto;display:block;margin:1em 0 1em 0; text-align:left;">
+          <div style="text-align:left; margin: 1em 0 0.2em 0;"><strong>Citation Area</strong></div>
+          <img src="./precedent_studies/bib_others/CitationType.png" alt="Citation Type" style="max-width:640px;width:100%;height:auto;display:block;margin:1em 0 1em 0; text-align:left;">
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Precedent 3-Layer Analysis</h2>
+        <div id="ontological-md"></div>
+        <div id="historical-md"></div>
+        <div id="visual-md"></div>
+      </div>
+
+      <div class="card">
+        <h2>Relational Diagrams</h2>
+        <div id="relational-diagrams-md"></div>
+      </div>
+
+      <div class="card">
+        <h2>Methodology Implementation</h2>
+        <div id="methodology-implementation-md"></div>
+      </div>
+
+      <div class="card">
+        <h2>Critical Rhetorical Analysis</h2>
+        <div id="critical-rhetorical-analysis-md"></div>
+      </div>
+
+      <div class="card">
+        <h2>Position In Authors Practice</h2>
+        <div id="position-in-authors-practice-md"></div>
+      </div>
+
+      <div class="card">
+        <h2>Personal Assessment</h2>
+        <div id="personal-assessment-md"></div>
+      </div>
+
+      <div class="card">
+        <h2>Poster</h2>
+        <img src="./precedent_studies/Poster.jpg" alt="Poster for Precedent Studies" style="max-width:720px;width:100%;height:auto;display:block;margin:1em 0;">
+      </div>
+    </div>
+  </div>
+
+  <script src="static/js/table.js"></script>
+  <script src="static/js/markdown.js"></script>
+  <script>
+    loadJsonToTableWithPagination('./precedent_studies/bib_original/bib_original.json', 'table-original');
+    loadJsonToTableWithPagination('./precedent_studies/bib_authors/bib_authors.json', 'table-authors');
+    loadJsonToTableWithPagination('./precedent_studies/bib_others/bib_others.json', 'table-others');
+    loadMarkdown('./precedent_studies/3_layer/ontological/ontological_analysis.md', 'ontological-md');
+    loadMarkdown('./precedent_studies/3_layer/historical_contextual/historical_contextual_analysis.md', 'historical-md');
+    loadMarkdown('./precedent_studies/3_layer/visual_aesthetic/visual_aesthetic_analysis.md', 'visual-md');
+    loadMarkdown('./precedent_studies/relational_diagrams/relational_diagrams.md', 'relational-diagrams-md');
+    loadMarkdown('./precedent_studies/methodology_implementation/methodology_implementation.md', 'methodology-implementation-md');
+    loadMarkdown('./precedent_studies/critical_rhetorical_analysis/critical_rhetorical_analysis.md', 'critical-rhetorical-analysis-md');
+    loadMarkdown('./precedent_studies/position_in_authors_practice/position_in_authors_practice.md', 'position-in-authors-practice-md');
+    loadMarkdown('./precedent_studies/personal_assessment/personal_assessment.md', 'personal-assessment-md');
+  </script>
+</body>
+</html> 

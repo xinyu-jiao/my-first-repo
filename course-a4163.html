@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A4163 — Xinyu Jiao</title>
+  <link rel="stylesheet" href="./static/style/style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128/examples/js/controls/OrbitControls.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet">
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-database-compat.js"></script>
+  <script src="https://unpkg.com/maplibre-gl@^5.6.1/dist/maplibre-gl.js"></script>
+  <link href="https://unpkg.com/maplibre-gl@^5.6.1/dist/maplibre-gl.css" rel="stylesheet" />
+  <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+</head>
+<body>
+  <!-- Top banner bar (links) -->
+  <nav class="banner-bar" aria-label="Main sections">
+    <a class="banner-link" href="./index.html"><span class="banner-title">Home</span></a>
+    <a class="banner-link" href="./course-a4144.html"><span class="banner-title">A4144</span><span class="banner-sub">Colloquium</span></a>
+    <a class="banner-link" href="./course-a4163.html"><span class="banner-title">A4163</span><span class="banner-sub">Workflows</span></a>
+    <a class="banner-link" href="./course-a4165.html"><span class="banner-title">A4165</span><span class="banner-sub">Mapping Systems</span></a>
+    <a class="banner-link" href="https://issuu.com/12080812/docs/issuu_"><span class="banner-title">Portfolio</span><span class="banner-sub">Isuuu</span></a>
+    <a class="banner-link" href="https://xinyu-jiao.github.io/colloquium-project/"><span class="banner-title">Capstone</span><span class="banner-sub">GSAPP Colloquium</span></a>
+  </nav>
+  <div class="section">
+    <div class="container">
+      <h1>A4163</h1>
+
+      <div class="card">
+        <h2>2D Spatial Canvas</h2>
+        <div class="canvas-wrapper">
+          <h5>1. Static Drawing</h5>
+          <div id="canvas-container-1"></div>
+        </div>
+        <div class="canvas-wrapper">
+          <h5>2. Interactive Drawing</h5>
+          <div id="canvas-container-2"></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>3D Spatial Canvas</h2>
+        <div class="canvas-wrapper">
+          <h5>1. Rotating Box</h5>
+          <div id="canvas-container-3"></div>
+        </div>
+        <div class="canvas-wrapper">
+          <h5>2. Interactive 3D</h5>
+          <div id="canvas-container-4"></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Temporal Structure</h2>
+        <div class="temporal-structure">
+          <h5>1. From Synthetic Data</h5>
+          <div id="temporal-container-1"></div>
+          <h6>Histogram</h6>
+          <div id="synthetic-histogram"></div>
+          <h6>Extrema</h6>
+          <div id="synthetic-extrema"></div>
+        </div>
+        <div class="temporal-structure">
+          <h5>2. From Event Data</h5>
+          <div id="temporal-container-2"></div>
+          <h6>Duration</h6>
+          <div id="event-duration-hist"></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Relational Structure</h2>
+        <div id="d3-relational-container"></div>
+      </div>
+
+      <div class="card">
+        <h2>Spatial Structure</h2>
+        <div id="mapbox-spatial-container"></div>
+      </div>
+
+      <div class="card">
+        <h2>Engagement Poll</h2>
+        <div id="poll-container" class="poll-container">
+          <p class="poll-question">Which part of the A4163 workshop helps you learn the most?</p>
+          <div class="vote-buttons">
+            <button id="vote-yes" class="vote-btn">Spatial / Canvas</button>
+            <button id="vote-no"  class="vote-btn btn-secondary">Temporal / Data</button>
+          </div>
+          <p class="vote-results"><span class="vote-count" id="yes-count">0</span> / <span class="vote-count" id="no-count">0</span> (total: <span class="vote-count" id="total-count">0</span>)</p>
+          <div id="connection-status" class="status-display">Connecting…</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>GPT Chat Bot</h2>
+        <div class="chat-container">
+          <div id="chat-messages" class="chat-messages"></div>
+          <div class="chat-input-row">
+            <input id="chat-input" type="text" placeholder="Type a message and press Enter…" />
+            <button id="chat-send" class="black-btn">Send</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="static/js/sketches.js"></script>
+  <script src="static/js/visualization.js"></script>
+  <script src="static/js/chat-bot.js"></script>
+  <script src="static/js/relational.js"></script>
+  <script src="static/js/mapbox.js"></script>
+  <script src="static/js/poll-app.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      initializeSketches();
+      if (document.getElementById('temporal-container-1')) drawSyntheticLineChart();
+      if (document.getElementById('temporal-container-2')) drawEventsTimeline();
+      if (document.getElementById('synthetic-histogram')) drawSyntheticHistogram();
+      if (document.getElementById('synthetic-extrema')) drawSyntheticExtrema();
+      if (document.getElementById('d3-relational-container')) drawRelationalGraph();
+      if (document.getElementById('mapbox-spatial-container')) loadMapbox();
+      if (document.getElementById('a4165-supabase-map')) initSupabaseMap();
+      if (document.getElementById('poll-container') && typeof initializePoll === 'function') initializePoll();
+      if (document.getElementById('a4163-chatbot')) { initializeChatBot && initializeChatBot(); }
+    });
+  </script>
+</body>
+</html> 

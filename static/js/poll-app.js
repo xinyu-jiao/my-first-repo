@@ -47,5 +47,4 @@
       : 'Disconnected';
   });
 
-  console.log('Poll‑App initialised (compat)');
 })();

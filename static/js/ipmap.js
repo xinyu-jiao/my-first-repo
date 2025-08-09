@@ -13,9 +13,11 @@ function loadLeafletIpMap() {
 
   leafletMap = L.map('leaflet-ipmap-container');
 
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; OpenStreetMap contributors',
-    maxZoom: 18
+  // Use MapTiler tiles for consistency with maplibre
+  const maptilerKey = 'uKkwrl99zhDBddN1jFk8';
+  L.tileLayer(`https://api.maptiler.com/maps/streets/256/{z}/{x}/{y}.png?key=${maptilerKey}`, {
+    attribution: '&copy; MapTiler & OpenStreetMap contributors',
+    maxZoom: 20
   }).addTo(leafletMap);
 
   fetch('./ip_map/ip_locations.geojson')
@@ -39,10 +41,22 @@ function loadLeafletIpMap() {
           });
         }
       }).addTo(leafletMap);
+
+      // Fit to data when loaded
+      if (leafletGeoJsonLayer && leafletGeoJsonLayer.getBounds().isValid()) {
+        leafletMap.fitBounds(leafletGeoJsonLayer.getBounds(), {
+          padding: [40, 40],
+          maxZoom: 5,
+        });
+      } else {
+        leafletMap.setView([20, 0], 2);
+      }
     })
     .catch(err => {
       console.error('Error loading IP map geojson:', err);
-      container.innerHTML += '<p style="color: red;">Failed to load IP map data.</p>';
+      container.innerHTML += '<p style="color: #c00; margin-top:8px;">Failed to load IP map data. Showing world view.</p>';
+      // Safe default view so the map renders tiles
+      leafletMap.setView([20, 0], 2);
     });
 }
 
@@ -55,7 +69,7 @@ function resizeLeafletIpMap() {
     if (leafletGeoJsonLayer && leafletGeoJsonLayer.getBounds().isValid()) {
       leafletMap.fitBounds(leafletGeoJsonLayer.getBounds(), {
         padding: [40, 40],
-        maxZoom: 3
+        maxZoom: 5
       });
     }
   }, 300);

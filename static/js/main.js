@@ -42,10 +42,13 @@ document.addEventListener('DOMContentLoaded', function () {
     if (document.getElementById('a4165-ip-map')) {
         loadLeafletIpMap();
     }
-    if (document.getElementById('poll-container')) {
-    initializePoll && initializePoll();
+    if (document.getElementById('poll-container') && typeof initializePoll === 'function') {
+        initializePoll();
     }
     if (document.getElementById('a4165-supabase-map')) {
         initSupabaseMap();
+    }
+    if (document.getElementById('a4163-chatbot')) {
+        initializeChatBot && initializeChatBot();
     }
 });

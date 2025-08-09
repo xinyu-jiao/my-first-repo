@@ -12,39 +12,28 @@ function initSupabaseMap() {
   });
 
   map.on('load', () => {
-    map.on('click', (e) => {
-      const lngLat = [e.lngLat.lng, e.lngLat.lat];
-      queryNearbyRestaurants(lngLat, 1000, map);
+    map.on('click', async (e) => {
+      const point = [e.lngLat.lng, e.lngLat.lat];
+      const { data } = await supabaseClient.rpc('find_nearest_n_restaurants', {
+        lat: point[1],
+        lon: point[0],
+        n: 1000,
+      });
+
+      document.querySelectorAll('.restaurant-marker').forEach(el => el.remove());
+      (data || []).forEach((d) => {
+        const el = document.createElement('div');
+        el.className = 'restaurant-marker';
+        el.style.width = '10px';
+        el.style.height = '10px';
+        el.style.borderRadius = '50%';
+        el.style.backgroundColor = 'red';
+        new maplibregl.Marker(el)
+          .setLngLat([d.long, d.lat])
+          .setPopup(new maplibregl.Popup().setText(`${d.name} (${Math.round(d.dist_meters)}m)`))
+          .addTo(map);
+      });
     });
-  });
-}
-
-async function queryNearbyRestaurants(point, radius, map) {
-  const { data, error } = await supabaseClient.rpc('find_nearest_n_restaurants', {
-    lat: point[1],
-    lon: point[0],
-    n: radius,
-  });
-
-  if (error) {
-    console.error('Error fetching data from Supabase:', error);
-    return;
-  }
-
-  document.querySelectorAll('.restaurant-marker').forEach(el => el.remove());
-
-  data.forEach((d) => {
-    const el = document.createElement('div');
-    el.className = 'restaurant-marker';
-    el.style.width = '10px';
-    el.style.height = '10px';
-    el.style.borderRadius = '50%';
-    el.style.backgroundColor = 'red';
-
-    new maplibregl.Marker(el)
-      .setLngLat([d.long, d.lat])
-      .setPopup(new maplibregl.Popup().setText(`${d.name} (${Math.round(d.dist_meters)}m)`))
-      .addTo(map);
   });
 }
 

@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Xinyu Jiao — Personal Site</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%92%AC%3C/text%3E%3C/svg%3E" />
   <link rel="stylesheet" href="./static/style/style.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
@@ -23,244 +24,59 @@
 </head>
 
 <body>
-  <!-- ===== Personal information ===== -->
-  <section id="personal-info" class="card">
-    <h1>Xinyu Jiao</h1>
-    <p>Email: <a href="mailto:xj2349@columbia.edu">xj2349@columbia.edu</a></p>
-  </section>
+  <!-- Top banner bar (links) -->
+  <nav class="banner-bar" aria-label="Main sections">
+    <a class="banner-link" href="./course-a4144.html"><span class="banner-title">A4144</span><span class="banner-sub">Colloquium</span></a>
+    <a class="banner-link" href="./course-a4163.html"><span class="banner-title">A4163</span><span class="banner-sub">Workflows</span></a>
+    <a class="banner-link" href="./course-a4165.html"><span class="banner-title">A4165</span><span class="banner-sub">Mapping Systems</span></a>
+    <a class="banner-link" href="https://issuu.com/12080812/docs/issuu_"><span class="banner-title">Portfolio</span><span class="banner-sub">Isuuu</span></a>
+    <a class="banner-link" href="https://xinyu-jiao.github.io/colloquium-project/"><span class="banner-title">Capstone</span><span class="banner-sub">GSAPP Colloquium</span></a>
+  </nav>
 
-  <section id="index" class="card">
-    <!-- Heading itself toggles the entire Courses section -->
-    <h2 class="toggle" data-target="courses">Courses</h2>
-  </section>
-
-  <!-- ===== Courses (hidden at first) ===== -->
-  <section id="courses" class="card content">
-    <!-- Toggle A4144 -->
-    <div class="course-title-indent">
-        <h3 class="toggle" data-target="course-a4144">A4144</h3>
-
-        <!-- ===== A4144 content ===== -->
-        <div id="course-a4144" class="content">
-        <!-- Toggle Datasheet -->
-        <h4 class="toggle" data-target="datasheet">Precedent Datasheet</h4>
-        <div id="datasheet" class="content">
-            <h4>Original Project/Paper</h5>
-            <div class="table-scroll">
-                <table id="table-original">
-                <thead>
-                    <tr>
-                    <th>Title</th>
-                    <th>Author</th>
-                    <th>Year</th>
-                    <th>Format</th>
-                    <th>Audience</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td colspan="5" style="text-align:center;">Loading…</td></tr>
-                </tbody>
-                </table>
-            </div>
-            <h4>Authors' Other Writings</h5>
-            <div class="table-scroll">
-                <table id="table-authors">
-                <thead>
-                    <tr>
-                    <th>Title</th>
-                    <th>Author</th>
-                    <th>Year</th>
-                    <th>Format</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td colspan="4" style="text-align:center;">Loading…</td></tr>
-                </tbody>
-                </table>
-            </div>
-            <h4>Others' Citations and Projects</h5>
-            <div class="table-scroll">
-                <table id="table-others">
-                <thead>
-                    <tr>
-                    <th>Title</th>
-                    <th>Author</th>
-                    <th>Year</th>
-                    <th>Format</th>
-                    <th>Ref Summary</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td colspan="5" style="text-align:center;">Loading…</td></tr>
-                </tbody>
-                </table>
-                <div class="citation-images">
-                    <div style="text-align:left; margin: 1em 0 0.2em 0;">
-                        <strong>Citation Trend</strong>
-                    </div>
-                    <img src="./precedent_studies/bib_others/CitationTrend.png" alt="Citation Trend" style="max-width:640px;width:100%;height:auto;display:block;margin:1em 0 1em 0; text-align:left;">
-                    <div style="text-align:left; margin: 1em 0 0.2em 0;">
-                        <strong>Citation Area</strong>
-                    </div>
-                    <img src="./precedent_studies/bib_others/CitationType.png" alt="Citation Type" style="max-width:640px;width:100%;height:auto;display:block;margin:1em 0 1em 0; text-align:left;">
-                </div>
-            </div>
-        </div><!-- /datasheet -->
-        <h4 class="toggle" data-target="three-layer-analysis">Precedent 3-Layer Analysis</h4>
-        <div id="three-layer-analysis" class="content">
-            <div class="layer-analysis">
-                <h5 class="toggle" data-target="ontological-analysis">1. Ontological Analysis</h5>
-                <div id="ontological-analysis" class="content">
-                    <div id="ontological-md"></div>
-                </div>
-            </div>
-            <div class="layer-analysis">
-                <h5 class="toggle" data-target="historical-analysis">2. Historical &amp; Contextual Analysis</h5>
-                <div id="historical-analysis" class="content">
-                    <div id="historical-md"></div>
-                </div>
-            </div>
-            <div class="layer-analysis">
-                <h5 class="toggle" data-target="visual-analysis">3. Visual &amp; Aesthetic Analysis</h5>
-                <div id="visual-analysis" class="content">
-                    <div id="visual-md"></div>
-                </div>
-            </div>
-        </div><!-- /three-layer-analysis -->
-        <h4 class="toggle" data-target="relational-diagrams">1. Relational Diagrams</h4>
-        <div id="relational-diagrams" class="content">
-            <div id="relational-diagrams-md"></div>
-        </div>
-        <h4 class="toggle" data-target="methodology-implementation">2. Methodology Implementation</h4>
-        <div id="methodology-implementation" class="content">
-            <div id="methodology-implementation-md"></div>
-        </div>
-        <h4 class="toggle" data-target="critical-rhetorical-analysis">3. Critical Rhetorical Analysis</h4>
-        <div id="critical-rhetorical-analysis" class="content">
-            <div id="critical-rhetorical-analysis-md"></div>
-        </div>
-        <h4 class="toggle" data-target="position-in-authors-practice">4. Position In Authors Practice</h4>
-        <div id="position-in-authors-practice" class="content">
-            <div id="position-in-authors-practice-md"></div>
-        </div>
-        <h4 class="toggle" data-target="personal-assessment">5. Personal Assessment</h4>
-        <div id="personal-assessment" class="content">
-            <div id="personal-assessment-md"></div>
-        </div>
-        <h4 class="toggle" data-target="poster">Poster for Precedent Studies</h4>
-        <div id="poster" class="content">
-            <div class="poster-wrapper">
-                <img src="./precedent_studies/Poster.jpg" alt="Poster for Precedent Studies" style="max-width:720px;width:100%;height:auto;display:block;margin:1em 0 1em 0; text-align:left;">
-            </div>
-        </div>
-        </div><!-- /course-a4144 -->
+  <!-- Hero / Profile Section -->
+  <div class="section">
+    <div class="container">
+      <div class="profile">
+        <img class="avatar" src="./static/xinyu-jiao.jpg" alt="avatar" onerror="this.style.display='none'" />
+        <h1>Xinyu Jiao</h1>
+        <p class="text-primary"><strong>GSAPP, Columbia University</strong></p>
+        <p>Email: <a href="mailto:xj2349@columbia.edu">xj2349@columbia.edu</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/xinyu-jiao-245633256/">Xinyu Jiao</a></p>
+        <p>Github: <a href="https://github.com/xinyu-jiao">xinyu-jiao</a></p>
+      </div>
     </div>
+  </div>
 
-    <div class="course-title-indent">
-        <h3 class="toggle" data-target="course-a4163">A4163</h3>
+  <!-- Main Content Section -->
+  <div class="section">
+    <div class="container">
+      <section id="personal-info" class="card">
+        <h2>About</h2>
+        <p>Hi, I'm Xinyu (Shireen) Jiao — a graduate student in Computational Design Practices at Columbia University GSAPP. With a background in Product Design, I'm passionate about combining creativity and technology. I'm now pursuing a career as a Frontend Engineer, creating intuitive and visually engaging digital experiences.
+        </p>
+      </section>
 
-        <div id="course-a4163" class="content">
-            <h4 class="toggle" data-target="a4163-2d-canvas">2D Spatial Canvas</h4>
-            <div id="a4163-2d-canvas" class="content">
-                <div class="canvas-wrapper">
-                    <h5>1. Static Drawing</h5>
-                    <div id="canvas-container-1"></div>
-                </div>
-                <div class="canvas-wrapper">
-                    <h5>2. Interactive Drawing</h5>
-                    <div id="canvas-container-2"></div>
-                </div>
-            </div>
+      <!-- Keep a minimal overview or remove courses body since now split to child pages -->
+      <section id="index" class="card">
+        <h2>Overview</h2>
+        <p>This site is my studio hub for GSAPP CDP — a place to browse coursework, experiments, and projects via the banner above.</p>
+        <ul>
+          <li><strong>A4144 — Colloquium:</strong> Precedent Datasheet and 3-Layer Analyses, plus relational diagrams, methodology notes, rhetorical critique, authors’ practice, personal assessment, and a poster.</li>
+          <li><strong>A4163 — Workflows:</strong> 2D/3D canvases (p5.js, Three.js), temporal charts (D3), relational network (D3), a Mapbox map, a small Firebase poll, and a GPT chatbot.</li>
+          <li><strong>A4165 — Mapping Systems:</strong> Leaflet IP map and a MapLibre + Supabase spatial query demo.</li>
+          <li><strong>Portfolio:</strong> external Issuu link; <strong>Capstone:</strong> sound-first AI interface concept (external).</li>
+        </ul>
+      </section>
+    </div>
+  </div>
 
-            <h4 class="toggle" data-target="a4163-3d-canvas">3D Spatial Canvas</h4>
-            <div id="a4163-3d-canvas" class="content">
-                <div class="canvas-wrapper">
-                    <h5>1. Rotating Box</h5>
-                    <div id="canvas-container-3"></div>
-                </div>
-                <div class="canvas-wrapper">
-                    <h5>2. Interactive 3D</h5>
-                    <div id="canvas-container-4"></div>
-                </div>
-            </div>
-            
-            <h4 class="toggle" data-target="a4163-temporal">Temporal Structure</h4>
-            <div id="a4163-temporal" class="content">
-                <div class="temporal-structure">
-                    <h5>1. From Synthetic Data</h5>
-                    <div id="temporal-container-1"></div>
-                    <h6>Histogram</h6>
-                    <div id="synthetic-histogram"></div>
-                    <h6>Extrema</h6>
-                    <div id="synthetic-extrema"></div>
-                </div>
-                <div class="temporal-structure">
-                    <h5>2. From Event Data</h5>
-                    <div id="temporal-container-2"></div>
-                    <h6>Duration</h6>
-                    <div id="event-duration-hist"></div>
-                </div>
-                <p>The temporal structure can be used in precedent studies to analyze (Have already been used in A4144 Datasheet)
-                    the number of citations received by the original paper after its publication or acceptance over the years (data from Scopus), 
-                    as well as the trends in click rates or reading volumes (such data may not be accessible).</p>
-            </div>
-            
-            <h4 class="toggle" data-target="a4163-relational">Relational Structure</h4>
-            <div id="a4163-relational" class="content">
-                <div id="d3-relational-container"></div>
-            </div>
-
-            <h4 class="toggle" data-target="a4163-mapbox">Spatial Structure</h4>
-            <div id="a4163-mapbox" class="content">
-                <div id="mapbox-spatial-container"></div>
-                <p>A geospatial structure like this Mapbox visualization can help me see where cultural sites—like museums and galleries—are located in a city like Chicago. By mapping them out, I can spot which areas I've already visited, which ones I might want to explore next, and how close they are to things like public transit or food spots. It's also useful for planning trips or weekend walks based on what's nearby.</p>
-            </div>
-
-            <h4 class="toggle" data-target="a4163-poll">Engagement Poll</h4>
-            <div id="a4163-poll" class="content">
-            <div id="poll-container" class="poll-container">
-                <p class="poll-question">
-                Which part of the A4163 workshop helps you learn the most?
-                </p>
-
-                <div class="vote-buttons">
-                <button id="vote-yes" class="vote-btn">Spatial / Canvas</button>
-                <button id="vote-no"  class="vote-btn btn-secondary">Temporal / Data</button>
-                </div>
-
-                <p class="vote-results">
-                <span class="vote-count" id="yes-count">0</span> / 
-                <span class="vote-count" id="no-count">0</span>
-                (total: <span class="vote-count" id="total-count">0</span>)
-                </p>
-
-                <div id="connection-status" class="status-display">Connecting…</div>
-            </div>
-            </div>
-        </div>
-    </div><!-- /course-a4163 -->
-    <div class="course-title-indent">
-        <h3 class="toggle" data-target="course-a4165">A4165</h3>
-
-        <div id="course-a4165" class="content">
-            <h4 class="toggle" data-target="a4165-ip-map">IP Map</h4>
-            <div id="a4165-ip-map" class="content"></div>
-            <h4 class="toggle" data-target="a4165-supabase-map-wrapper">Supabase Spatial Map</h4>
-            <div id="a4165-supabase-map-wrapper" class="content">
-            <div id="a4165-supabase-map" style="width: 100%; height: 500px;"></div>
-            </div>
-        </div>
-
-    </div><!-- /course-a4165 -->
-
-    
-  </section><!-- /courses -->
-
+  <!-- scripts kept for other widgets if you re-use on child pages -->
   <script src="static/js/toggles.js"></script>
   <script src="static/js/table.js"></script>
   <script src="static/js/sketches.js"></script>
   <script src="static/js/visualization.js"></script>
   <script src="static/js/markdown.js"></script>
+  <script src="static/js/chat-bot.js"></script>
   <script src="static/js/main.js"></script>
   <script src="static/js/relational.js"></script>
   <script src="static/js/mapbox.js"></script>
