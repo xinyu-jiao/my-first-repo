@@ -24,9 +24,8 @@
   <nav class="banner-bar" aria-label="Main sections">
     <a class="banner-link" href="./index.html"><span class="banner-title">Home</span></a>
     <a class="banner-link" href="./course-a4144.html"><span class="banner-title">A4144</span><span class="banner-sub">Colloquium</span></a>
-    <a class="banner-link" href="./course-a4163.html"><span class="banner-title">A4163</span><span class="banner-sub">Workflows</span></a>
     <a class="banner-link" href="./course-a4165.html"><span class="banner-title">A4165</span><span class="banner-sub">Mapping Systems</span></a>
-    <a class="banner-link" href="https://issuu.com/12080812/docs/issuu_"><span class="banner-title">Portfolio</span><span class="banner-sub">Isuuu</span></a>
+    <a class="banner-link" href="https://issuu.com/12080812/docs/issuu_"><span class="banner-title">Portfolio</span><span class="banner-sub">Issuu</span></a>
     <a class="banner-link" href="https://xinyu-jiao.github.io/colloquium-project/"><span class="banner-title">Capstone</span><span class="banner-sub">GSAPP Colloquium</span></a>
   </nav>
   <div class="section">
@@ -35,6 +34,7 @@
 
       <div class="card">
         <h2>2D Spatial Canvas</h2>
+        <p class="section-desc">Two p5.js sketches. The static sketch renders a lakeside scene (forest backdrop, water, randomly placed islands, a small swan, and grass). The interactive sketch draws colored circles at the mouse position; color and size map to cursor X/Y, and clicking clears the canvas.</p>
         <div class="canvas-wrapper">
           <h5>1. Static Drawing</h5>
           <div id="canvas-container-1"></div>
@@ -47,6 +47,7 @@
 
       <div class="card">
         <h2>3D Spatial Canvas</h2>
+        <p class="section-desc">Two Three.js scenes. The first extrudes a mathematical heart curve into 3D and rotates a trio of hearts under basic lighting. The second adds OrbitControls, hemisphere/directional lights, a shadow-receiving floor, a reflective sphere, and a spinning torus-knot for interactive navigation.</p>
         <div class="canvas-wrapper">
           <h5>1. Rotating Box</h5>
           <div id="canvas-container-3"></div>
@@ -59,6 +60,7 @@
 
       <div class="card">
         <h2>Temporal Structure</h2>
+        <p class="section-desc">D3.js visualizations over local CSVs. The synthetic series renders a line chart with focus tooltip, a value histogram, and extrema markers with a mean line (dataset: <code>./temporal_structure/synthetic-data.csv</code> from the example repo). The event dataset builds a timeline colored by category and a duration histogram (dataset: <code>./temporal_structure/events.csv</code> from the example repo).</p>
         <div class="temporal-structure">
           <h5>1. From Synthetic Data</h5>
           <div id="temporal-container-1"></div>
@@ -77,16 +79,19 @@
 
       <div class="card">
         <h2>Relational Structure</h2>
+        <p class="section-desc">A force-directed network built with D3. Nodes (size/color by attributes) and links (thickness by strength) are draggable and zoomable, with arrowheads for directed edges and tooltips showing per-node details. Datasets: <code>./relational_structure/nodes.csv</code> and <code>./relational_structure/edges.csv</code> from the example repo.</p>
         <div id="d3-relational-container"></div>
       </div>
 
       <div class="card">
         <h2>Spatial Structure</h2>
+        <p class="section-desc">A Mapbox GL visualization of Chicago museums. Points are styled circles with labels; clicking a point opens a popup with name/description, and the map exposes standard navigation controls. Dataset: <code>./spatial_structure/museum_chicago.geojson</code> with mind drawing with geojson.io.</p>
         <div id="mapbox-spatial-container"></div>
       </div>
 
       <div class="card">
         <h2>Engagement Poll</h2>
+        <p class="section-desc">A minimal Firebase Realtime Database poll. Two buttons increment yes/no counters via a transactional update; a live listener updates totals and briefly animates numbers when values change.</p>
         <div id="poll-container" class="poll-container">
           <p class="poll-question">Which part of the A4163 workshop helps you learn the most?</p>
           <div class="vote-buttons">
@@ -100,6 +105,7 @@
 
       <div class="card">
         <h2>GPT Chat Bot</h2>
+        <p class="section-desc">A lightweight chat UI that loads an API key from a local text file and submits prompts to the OpenAI Chat Completions API. Messages append to a chat pane; Enter or the Send button triggers a request, with a placeholder typing indicator while waiting.</p>
         <div class="chat-container">
           <div id="chat-messages" class="chat-messages"></div>
           <div class="chat-input-row">
